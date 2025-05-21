@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+    Copyright (c) 2009 IBM Corporation and others.
+
+    This program and the accompanying materials are made
+    available under the terms of the Eclipse Public License 2.0
+    which is available at https://www.eclipse.org/legal/epl-2.0/
+
+    SPDX-License-Identifier: EPL-2.0
+
+    Contributors:
+        IBM Corporation - initial API and implementation
+        Zend Technologies
+ -->
+<feature
+      id="org.eclipse.php.mylyn"
+      label="%featureName"
+      version="8.2.0.202311292129"
+      provider-name="%providerName"
+      plugin="org.eclipse.php.mylyn.ui">
+
+   <description>
+      %description
+   </description>
+
+   <copyright>
+      %copyright
+   </copyright>
+
+   <license url="%licenseURL">
+      %license
+   </license>
+
+   <requires>
+      <import feature="org.eclipse.dltk.mylyn"/>
+   </requires>
+  
+   <includes
+         id="org.eclipse.php"
+         version="8.2.0.202311292129"/>
+
+   <plugin
+         id="org.eclipse.php.mylyn.ui"
+         download-size="27"
+         install-size="45"
+         version="8.2.0.202311292129"
+         unpack="false"/>
+
+</feature>

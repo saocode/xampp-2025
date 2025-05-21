@@ -1,0 +1,4 @@
+Unzipped xampp-portable-windows-x64-8.2.12-0-VS16
+Added eclipse IDE and workspace
+Added xdebug dll to php/ext
+Added xdebug settings to php/php.ini
