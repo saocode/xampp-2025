@@ -32,6 +32,6 @@ eclipse\shortcut /f:xampp-control.lnk /A:C /t:%dir%\xampp-control.exe /w:%dir%
 
 copy xampp-control.lnk %USERPROFILE%\Desktop\xampp-control.lnk
 
-copy eclipse\eclipse.lnk %USERPROFILE%\Desktop\eclipse.lnk
+copy eclipse.lnk %USERPROFILE%\Desktop\eclipse.lnk
 
 :END
