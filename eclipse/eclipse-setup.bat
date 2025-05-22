@@ -20,4 +20,18 @@ if errorlevel 1 echo /eclipse-%name%>>.gitignore
 
 del eclipse-copy-log.txt
 
+for /f %%a in ('cd') do (set "dir=%%~a")
+
+shortcut /f:..\eclipse.lnk /A:C /t:%dir%\eclipse-%name%\eclipse.exe /w:%dir%\eclipse-%name%
+
+cd..
+
+for /f %%a in ('cd') do (set "dir=%%~a")
+
+eclipse\shortcut /f:xampp-control.lnk /A:C /t:%dir%\xampp-control.exe /w:%dir%
+
+copy xampp-control.lnk %USERPROFILE%\Desktop\xampp-control.lnk
+
+copy eclipse\eclipse.lnk %USERPROFILE%\Desktop\eclipse.lnk
+
 :END
